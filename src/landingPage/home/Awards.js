@@ -8,8 +8,8 @@ function Awards() {
           <img src='media/images/largestBroker.svg'/>
         </div>
         <div className='col-6 p-5 mt-5'>
-          <h1>Largest stock Broker in India</h1>
-          <p className='mb-5'>That's why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India.</p>
+          <h1 className='mb-4'>Largest stock Broker in India</h1>
+          <p className='mb-5 text-muted'>That's why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India.</p>
           <div className='row'>
             <div className='col-6'>
             <ul>
