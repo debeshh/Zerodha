@@ -2,7 +2,10 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer footer-expand-lg border-top" style={{ background: "rgb(248,248,248" }}>
+    <footer
+      className="footer footer-expand-lg border-top"
+      style={{ background: "rgb(248,248,248" }}
+    >
       <div className="container">
         <div className="row p-5">
           <div className="col">
@@ -16,6 +19,14 @@ function Footer() {
               <br />
               All rights reserved.
             </p>
+            <a href=""  className='text-muted p-3' ><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href=""  className='text-muted p-3' ><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href=""  className='text-muted p-3' ><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <hr/>
+            <a href=""  className='text-muted p-3' ><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            <a href=""  className='text-muted p-3' ><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            <a href=""  className='text-muted p-3' ><i class="fa fa-telegram" aria-hidden="true"></i></a>
+
           </div>
           <div className="col mb-5">
             <p>Company</p>
@@ -189,7 +200,7 @@ function Footer() {
         </div>
         <div className="row small">
           <p className="text-muted fs-9">
-            Zerodha Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration
+            Zerodha Broking Ltd.: Member of NSE, BSE &​ MCX – SEBI Registration
             no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha
             Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Commodity
             Trading through Zerodha Commodities Pvt. Ltd. MCX: 46025; NSE-50001
@@ -197,20 +208,36 @@ function Footer() {
             Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence
             Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka,
             India. For any complaints pertaining to securities broking please
-            write to complaints@zerodha.com, for DP related to dp@zerodha.com.
-            Please ensure you carefully read the Risk Disclosure Document as
+            write to{" "}
+            <a href="" style={{ textDecoration: "none" }}>
+              complaints@zerodha.com
+            </a>
+            , for DP related to{" "}
+            <a href="" style={{ textDecoration: "none" }}>
+              dp@zerodha.com
+            </a>
+            . Please ensure you carefully read the Risk Disclosure Document as
             prescribed by SEBI | ICF
           </p>
 
           <p className="text-muted">
-            Procedure to file a complaint on SEBI SCORES: Register on SCORES
-            portal. Mandatory details for filing complaints on SCORES: Name,
-            PAN, Address, Mobile Number, E-mail ID. Benefits: Effective
-            Communication, Speedy redressal of the grievances
+            Procedure to file a complaint on{" "}
+            <a href="" style={{ textDecoration: "none" }}>
+              SEBI SCORES
+            </a>
+            : Register on SCORES portal. Mandatory details for filing complaints
+            on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits:
+            Effective Communication, Speedy redressal of the grievances
           </p>
 
           <p className="text-muted">
-            Smart Online Dispute Resolution | Grievances Redressal Mechanism
+            <a href="" style={{ textDecoration: "none" }}>
+              Smart Online Dispute Resolution{" "}
+            </a>{" "}
+            |{" "}
+            <a href="" style={{ textDecoration: "none" }}>
+              Grievances Redressal Mechanism{" "}
+            </a>
           </p>
 
           <p className="text-muted">
@@ -244,8 +271,40 @@ function Footer() {
             bank account. As a business we don't give stock tips, and have not
             authorized anyone to trade on behalf of others. If you find anyone
             claiming to be part of Zerodha and offering such services, please
-            create a ticket here.
+            <a href="" style={{ textDecoration: "none" }}>
+              {" "}
+              create a ticket here.
+            </a>
           </p>
+        </div>
+        <div className="d-flex flex-wrap justify-content-center gap-3 p-2 mb-2 small" >
+          <a href="#" className="text-muted text-decoration-none">
+            NSE
+          </a>
+          <a href="#" className="text-muted text-decoration-none">
+            BSE
+          </a>
+          <a href="#" className="text-muted text-decoration-none">
+            MCX
+          </a>
+          <a href="#" className="text-muted text-decoration-none">
+            Terms & conditions
+          </a>
+          <a href="#" className="text-muted text-decoration-none">
+            Policies & procedures
+          </a>
+          <a href="#" className="text-muted text-decoration-none">
+            Privacy policy
+          </a>
+          <a href="#" className="text-muted text-decoration-none">
+          Disclosure
+          </a>
+          <a href="#" className="text-muted text-decoration-none">
+             For investor's attention
+          </a>
+          <a href="#" className="text-muted text-decoration-none">
+            Investor charter
+          </a>
         </div>
       </div>
     </footer>
