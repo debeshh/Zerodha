@@ -2,14 +2,14 @@ import React from 'react'
 
 function Awards() {
   return (
-    <div className='container mt-5'>
-      <div className='row'>
-        <div className='col-6 p-5'>
-          <img src='media/images/largestBroker.svg'/>
+    <div className='container p-5 mt-5 mb-5'>
+      <div className='row p-2 mb-5'>
+        <div className='col-6'>
+          <img src='media/images/largestBroker.svg'style={{width:"80%"}}/>
         </div>
-        <div className='col-6 p-5 mt-5'>
-          <h1 className='mb-4'>Largest stock Broker in India</h1>
-          <p className='mb-5 text-muted'>That's why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India.</p>
+        <div className='col-6'>
+          <h1 className='mb-4 fs-2'>Largest stock Broker in India</h1>
+          <p className='text-muted'>That's why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India.</p>
           <div className='row'>
             <div className='col-6'>
             <ul>
