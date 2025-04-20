@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -7,9 +8,9 @@ const Navbar = () => {
       style={{ backgroundColor: "#FFF" }}
     >
       <div className="container p-2">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           <img src="media/images/logo.svg" style={{ width: "22%" }} />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -25,29 +26,29 @@ const Navbar = () => {
           <form className="d-flex" role="search">
             <ul className="navbar-nav  mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="#">
+                <Link className="nav-link " aria-current="page" to="/signup">
                   Signup
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link"  aria-current="page" to="about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" aria-current="page" to="product">
                   Products
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" aria-current="page" to="pricing">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" aria-current="page" to="support">
                   Support
-                </a>
+                </Link>
               </li>
             </ul>
           </form>
